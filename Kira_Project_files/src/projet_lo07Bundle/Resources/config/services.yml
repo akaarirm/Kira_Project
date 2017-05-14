@@ -1,0 +1,4 @@
+services:
+#    projet.lo07.example:
+#        class: projet_lo07Bundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

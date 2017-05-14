@@ -1,0 +1,8 @@
+projet.lo07_homepage:
+    path:     /
+    defaults: { _controller: projet_lo07Bundle:Default:index }
+
+
+projet.lo07_ajoutEtudiant:
+    path:     /ajout/etudiant
+    defaults: { _controller: projet_lo07Bundle:formEtudiant:add }

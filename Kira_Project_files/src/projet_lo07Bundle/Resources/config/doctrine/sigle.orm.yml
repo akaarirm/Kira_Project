@@ -1,0 +1,15 @@
+projet_lo07Bundle\Entity\sigle:
+    type: entity
+    table: null
+    repositoryClass: projet_lo07Bundle\Repository\sigleRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        categorie:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

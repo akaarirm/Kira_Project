@@ -1,0 +1,18 @@
+projet_lo07Bundle\Entity\cursus:
+    type: entity
+    table: null
+    repositoryClass: projet_lo07Bundle\Repository\cursusRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: NONE
+    fields:
+        admission:
+            type: string
+            length: 255
+        filiere:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

@@ -1,0 +1,19 @@
+projet_lo07Bundle\Entity\etudiant:
+    type: entity
+    table: null
+    repositoryClass: projet_lo07Bundle\Repository\etudiantRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: NONE
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+
+    lifecycleCallbacks: {  }

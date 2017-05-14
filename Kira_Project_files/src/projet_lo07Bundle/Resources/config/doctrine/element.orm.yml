@@ -1,0 +1,30 @@
+projet_lo07Bundle\Entity\element:
+    type: entity
+    table: null
+    repositoryClass: projet_lo07Bundle\Repository\elementRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        semSeq:
+            type: integer
+        semLabel:
+            type: string
+            length: 255
+        utt:
+            type: boolean
+        profil:
+            type: string
+            length: 255
+        affectation:
+            type: string
+            length: 255
+        credit:
+            type: integer
+        resultat:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

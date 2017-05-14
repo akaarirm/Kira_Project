@@ -1,0 +1,23 @@
+projet_lo07Bundle\Entity\regle:
+    type: entity
+    table: null
+    repositoryClass: projet_lo07Bundle\Repository\regleRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        agregat:
+            type: string
+            length: 255
+        cible:
+            type: string
+            length: 255
+        etape:
+            type: string
+            length: 255
+        seuil:
+            type: integer
+    lifecycleCallbacks: {  }
